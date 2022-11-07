@@ -66,7 +66,7 @@ const SuccessPage = ({ navigation, route }: any) => {
     return (
         <>
             <SafeAreaView style={{ flex: 1 }}>
-                <HeaderBar isBack={true} onTap={() => navigation.goBack()} headerText={'Booked Status'} />
+                <HeaderBar isBack={true} onTap={() => navigation.popToTop()} headerText={'Booked Status'} />
             </SafeAreaView>
             {renderSwitch()}
         </>
