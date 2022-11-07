@@ -30,10 +30,10 @@ const BookingSeat = (props: any) => {
 
     const renderLayout = (lay: string) => {
         return (
-            <ScrollView style={{ width: '50%' }}>
+            <ScrollView style={{ width: '50%' }} showsVerticalScrollIndicator = {false} contentContainerStyle = {{ paddingBottom: 75}}>
                 {
                     layoutSeat.map((item_: any, ikey) => {
-                        let color = item_?.status == 'available' ? COLORS.darkGreen : 'booked' ? COLORS.lightGray3 : COLORS.blue;
+                        let color = item_?.status == 'available' ? COLORS.darkGreen : (item_.isFemale) ?  COLORS.lightPink : COLORS.lightGray3;
                         return (
                             <FlatList
                                 key={ikey}

@@ -186,7 +186,8 @@ export const layoutSeat = [
     status: 'available'
   },
   {
-    status: 'booked'
+    status: 'booked',
+    isFemale: true,
   },
   {
     status: 'available'
@@ -204,7 +205,8 @@ export const layoutSeat = [
     status: 'booked'
   },
   {
-    status: 'booked'
+    status: 'booked',
+    isFemale: true
   },
   {
     status: 'booked'
@@ -225,7 +227,7 @@ export const layoutSeat = [
     status: 'available'
   },
   {
-    status: 'available'
+    status: 'booked'
   },
   {
     status: 'available'

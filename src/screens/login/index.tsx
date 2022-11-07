@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { useTheme } from 'react-native-paper';
-import { View, Text, TouchableOpacity, TextInput, Platform, StyleSheet, StatusBar, Alert } from 'react-native';
+import { View, Text, TouchableOpacity, TextInput, StatusBar, Alert } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import LinearGradient from 'react-native-linear-gradient';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
